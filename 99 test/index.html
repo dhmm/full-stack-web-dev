@@ -5,46 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        html{
-            font-size:30px;
-        }
-        body
+        div
         {
-            font-size:30pt;
+            width:100px;
+            height:100px;
         }
-        h1
+        .bg-red {
+            background-color: red;
+        }
+        .bg-blue {
+            background-color: blue;
+        }
+        .pos-static {
+            position:static;
+        }
+         .pos-relative {
+            position:relative;
+        }
+         .pos-absolute {
+            position:absolute;
+        }
+         .pos-fixed {
+            position:fixed;
+        }
+        .b1
         {
-            font-size:0.5em;
-        }
-        .box{
-            font-size:20px;
-        }
-        .list
-        {
-            font-size:0.5rem;
-        }
-        .p1
-        {
-            text-align: end;
-        }
-        .p2
-        {
-            text-align:start;
+            left :50px;
+            top: 50px;
         }
     </style>
 </head>
 <body>
-    <h1>The title of the article</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-    <div class="box">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
-        <ul class="list">
-            <li>list item 1</li>
-            <li>list item 2</li>
-            <li>list item 3</li>
-        </ul>
-    </div>
-    <p class="p1">Test</p>
-    <p class="p2">Test</p>
+    <div class="bg-red"></div>
+    <div class="bg-blue b1 pos-absolute"></div>
 </body>
 </html>
